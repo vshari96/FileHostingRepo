@@ -11,19 +11,19 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://github.com/vshari96/FileHostingRepo/blob/8a0411c2a314da9d7860de658d5982e7d7eda019/SigninTrial/SignInTrial.ipa</string>
+					<string>https://github.com/vshari96/FileHostingRepo/blob/3989abc9f3b27a0e310767211ed405b3f0dfbb9f/SigninTrial/SignInTrial.ipa</string>
 				</dict>
 				<dict>
 					<key>kind</key>
 					<string>display-image</string>
 					<key>url</key>
-					<string>https://github.com/vshari96/FileHostingRepo/blob/8a0411c2a314da9d7860de658d5982e7d7eda019/SigninTrial/signInTrial-57x57.png</string>
+					<string>https://github.com/vshari96/FileHostingRepo/blob/28e4aece1bed61b77c5757a885476aad60f8847e/SigninTrial/SignInTrial.plist</string>
 				</dict>
 				<dict>
 					<key>kind</key>
 					<string>full-size-image</string>
 					<key>url</key>
-					<string>https://github.com/vshari96/FileHostingRepo/blob/8a0411c2a314da9d7860de658d5982e7d7eda019/SigninTrial/signInTrial-512x512.png</string>
+					<string>https://github.com/vshari96/FileHostingRepo/blob/28e4aece1bed61b77c5757a885476aad60f8847e/SigninTrial/SignInTrial.plist</string>
 				</dict>
 			</array>
 			<key>metadata</key>
