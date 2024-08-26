@@ -1,0 +1,6 @@
+framework module Pods_SignInTrialTests {
+  umbrella header "Pods-SignInTrialTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,1181 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MAQueriesAndFeedback",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MAQueriesAndFeedbackCloseActionDeligate",
+        "printedName": "MAQueriesAndFeedbackCloseActionDeligate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "queriesAndFeedbackClosed",
+            "printedName": "queriesAndFeedbackClosed()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20MAQueriesAndFeedback0abC19CloseActionDeligateP07queriesbC6ClosedyyF",
+            "mangledName": "$s20MAQueriesAndFeedback0abC19CloseActionDeligateP07queriesbC6ClosedyyF",
+            "moduleName": "MAQueriesAndFeedback",
+            "genericSig": "<τ_0_0 where τ_0_0 : MAQueriesAndFeedback.MAQueriesAndFeedbackCloseActionDeligate>",
+            "sugared_genericSig": "<Self where Self : MAQueriesAndFeedback.MAQueriesAndFeedbackCloseActionDeligate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:20MAQueriesAndFeedback0abC19CloseActionDeligateP",
+        "mangledName": "$s20MAQueriesAndFeedback0abC19CloseActionDeligateP",
+        "moduleName": "MAQueriesAndFeedback",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MAQueriesAndFeedbackDeligate",
+        "printedName": "MAQueriesAndFeedbackDeligate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "queriesAndFeedbackModeStarted",
+            "printedName": "queriesAndFeedbackModeStarted()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20MAQueriesAndFeedback0abC8DeligateP07queriesbC11ModeStartedyyF",
+            "mangledName": "$s20MAQueriesAndFeedback0abC8DeligateP07queriesbC11ModeStartedyyF",
+            "moduleName": "MAQueriesAndFeedback",
+            "genericSig": "<τ_0_0 where τ_0_0 : MAQueriesAndFeedback.MAQueriesAndFeedbackDeligate>",
+            "sugared_genericSig": "<Self where Self : MAQueriesAndFeedback.MAQueriesAndFeedbackDeligate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "queriesAndFeedbackAccepted",
+            "printedName": "queriesAndFeedbackAccepted(queryImage:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20MAQueriesAndFeedback0abC8DeligateP07queriesbC8Accepted10queryImageySo7UIImageCSg_tF",
+            "mangledName": "$s20MAQueriesAndFeedback0abC8DeligateP07queriesbC8Accepted10queryImageySo7UIImageCSg_tF",
+            "moduleName": "MAQueriesAndFeedback",
+            "genericSig": "<τ_0_0 where τ_0_0 : MAQueriesAndFeedback.MAQueriesAndFeedbackDeligate>",
+            "sugared_genericSig": "<Self where Self : MAQueriesAndFeedback.MAQueriesAndFeedbackDeligate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "queriesAndFeedBackClearFadeBeforeScreenshot",
+            "printedName": "queriesAndFeedBackClearFadeBeforeScreenshot()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20MAQueriesAndFeedback0abC8DeligateP07queriesB33FeedBackClearFadeBeforeScreenshotyyF",
+            "mangledName": "$s20MAQueriesAndFeedback0abC8DeligateP07queriesB33FeedBackClearFadeBeforeScreenshotyyF",
+            "moduleName": "MAQueriesAndFeedback",
+            "genericSig": "<τ_0_0 where τ_0_0 : MAQueriesAndFeedback.MAQueriesAndFeedbackDeligate>",
+            "sugared_genericSig": "<Self where Self : MAQueriesAndFeedback.MAQueriesAndFeedbackDeligate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:20MAQueriesAndFeedback0abC8DeligateP",
+        "mangledName": "$s20MAQueriesAndFeedback0abC8DeligateP",
+        "moduleName": "MAQueriesAndFeedback",
+        "genericSig": "<τ_0_0 : MAQueriesAndFeedback.MAQueriesAndFeedbackCloseActionDeligate>",
+        "sugared_genericSig": "<Self : MAQueriesAndFeedback.MAQueriesAndFeedbackCloseActionDeligate>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "MAQueriesAndFeedbackCloseActionDeligate",
+            "printedName": "MAQueriesAndFeedbackCloseActionDeligate",
+            "usr": "s:20MAQueriesAndFeedback0abC19CloseActionDeligateP",
+            "mangledName": "$s20MAQueriesAndFeedback0abC19CloseActionDeligateP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MAQueriesAndFeedbackButtonView",
+        "printedName": "MAQueriesAndFeedbackButtonView",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "addQueriesAndFeedbackIcon",
+            "printedName": "addQueriesAndFeedbackIcon(source:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MAQueriesAndFeedbackDeligate",
+                "printedName": "any MAQueriesAndFeedback.MAQueriesAndFeedbackDeligate",
+                "usr": "s:20MAQueriesAndFeedback0abC8DeligateP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20MAQueriesAndFeedback0abC10ButtonViewC010addQueriesbC4Icon6sourceyAA0abC8Deligate_p_tFZ",
+            "mangledName": "$s20MAQueriesAndFeedback0abC10ButtonViewC010addQueriesbC4Icon6sourceyAA0abC8Deligate_p_tFZ",
+            "moduleName": "MAQueriesAndFeedback",
+            "static": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hideQueriesAndFeedbackIcon",
+            "printedName": "hideQueriesAndFeedbackIcon(status:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20MAQueriesAndFeedback0abC10ButtonViewC011hideQueriesbC4Icon6statusySb_tFZ",
+            "mangledName": "$s20MAQueriesAndFeedback0abC10ButtonViewC011hideQueriesbC4Icon6statusySb_tFZ",
+            "moduleName": "MAQueriesAndFeedback",
+            "static": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MAQueriesAndFeedbackButtonView",
+                "printedName": "MAQueriesAndFeedback.MAQueriesAndFeedbackButtonView",
+                "usr": "c:@M@MAQueriesAndFeedback@objc(cs)MAQueriesAndFeedbackButtonView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@MAQueriesAndFeedback@objc(cs)MAQueriesAndFeedbackButtonView(im)initWithFrame:",
+            "mangledName": "$s20MAQueriesAndFeedback0abC10ButtonViewC5frameACSo6CGRectV_tcfc",
+            "moduleName": "MAQueriesAndFeedback",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "MAQueriesAndFeedback.MAQueriesAndFeedbackButtonView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MAQueriesAndFeedbackButtonView",
+                    "printedName": "MAQueriesAndFeedback.MAQueriesAndFeedbackButtonView",
+                    "usr": "c:@M@MAQueriesAndFeedback@objc(cs)MAQueriesAndFeedbackButtonView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@MAQueriesAndFeedback@objc(cs)MAQueriesAndFeedbackButtonView(im)initWithCoder:",
+            "mangledName": "$s20MAQueriesAndFeedback0abC10ButtonViewC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "MAQueriesAndFeedback",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@MAQueriesAndFeedback@objc(cs)MAQueriesAndFeedbackButtonView",
+        "mangledName": "$s20MAQueriesAndFeedback0abC10ButtonViewC",
+        "moduleName": "MAQueriesAndFeedback",
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MAQueriesAndFeedback",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MAQueriesAndFeedback"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MAQueriesAndFeedback",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MAQueriesAndFeedback"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MAImageEditorTheme",
+        "printedName": "MAImageEditorTheme",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(headerViewColor:doneButtonTextColor:pageTitleTextColor:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MAImageEditorTheme",
+                "printedName": "MAQueriesAndFeedback.MAImageEditorTheme",
+                "usr": "s:20MAQueriesAndFeedback18MAImageEditorThemeV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:20MAQueriesAndFeedback18MAImageEditorThemeV15headerViewColor014doneButtonTextI009pageTitlelI0ACSo7UIColorCSg_A2Itcfc",
+            "mangledName": "$s20MAQueriesAndFeedback18MAImageEditorThemeV15headerViewColor014doneButtonTextI009pageTitlelI0ACSo7UIColorCSg_A2Itcfc",
+            "moduleName": "MAQueriesAndFeedback",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:20MAQueriesAndFeedback18MAImageEditorThemeV",
+        "mangledName": "$s20MAQueriesAndFeedback18MAImageEditorThemeV",
+        "moduleName": "MAQueriesAndFeedback",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MAQueriesAndFeedback",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MAQueryImageEditingDeligate",
+        "printedName": "MAQueryImageEditingDeligate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "imageEdited",
+            "printedName": "imageEdited(editedImage:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20MAQueriesAndFeedback27MAQueryImageEditingDeligateP11imageEdited06editedE0ySo7UIImageC_tF",
+            "mangledName": "$s20MAQueriesAndFeedback27MAQueryImageEditingDeligateP11imageEdited06editedE0ySo7UIImageC_tF",
+            "moduleName": "MAQueriesAndFeedback",
+            "genericSig": "<τ_0_0 where τ_0_0 : MAQueriesAndFeedback.MAQueryImageEditingDeligate>",
+            "sugared_genericSig": "<Self where Self : MAQueriesAndFeedback.MAQueryImageEditingDeligate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:20MAQueriesAndFeedback27MAQueryImageEditingDeligateP",
+        "mangledName": "$s20MAQueriesAndFeedback27MAQueryImageEditingDeligateP",
+        "moduleName": "MAQueriesAndFeedback",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MAQueryImageEditingViewController",
+        "printedName": "MAQueryImageEditingViewController",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MAQueriesAndFeedback@objc(cs)MAQueryImageEditingViewController(im)viewDidLoad",
+            "mangledName": "$s20MAQueriesAndFeedback33MAQueryImageEditingViewControllerC11viewDidLoadyyF",
+            "moduleName": "MAQueriesAndFeedback",
+            "overriding": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewWillAppear",
+            "printedName": "viewWillAppear(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MAQueriesAndFeedback@objc(cs)MAQueryImageEditingViewController(im)viewWillAppear:",
+            "mangledName": "$s20MAQueriesAndFeedback33MAQueryImageEditingViewControllerC14viewWillAppearyySbF",
+            "moduleName": "MAQueriesAndFeedback",
+            "overriding": true,
+            "objc_name": "viewWillAppear:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewWillDisappear",
+            "printedName": "viewWillDisappear(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MAQueriesAndFeedback@objc(cs)MAQueryImageEditingViewController(im)viewWillDisappear:",
+            "mangledName": "$s20MAQueriesAndFeedback33MAQueryImageEditingViewControllerC17viewWillDisappearyySbF",
+            "moduleName": "MAQueriesAndFeedback",
+            "overriding": true,
+            "objc_name": "viewWillDisappear:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showImageEditor",
+            "printedName": "showImageEditor(sourceImage:sourceView:imageEditorTheme:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "MAQueriesAndFeedback.MAImageEditorTheme?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MAImageEditorTheme",
+                    "printedName": "MAQueriesAndFeedback.MAImageEditorTheme",
+                    "usr": "s:20MAQueriesAndFeedback18MAImageEditorThemeV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20MAQueriesAndFeedback33MAQueryImageEditingViewControllerC04showE6Editor06sourceE00kG005imageJ5ThemeySo7UIImageC_So06UIViewH0CAA07MAImagejM0VSgtFZ",
+            "mangledName": "$s20MAQueriesAndFeedback33MAQueryImageEditingViewControllerC04showE6Editor06sourceE00kG005imageJ5ThemeySo7UIImageC_So06UIViewH0CAA07MAImagejM0VSgtFZ",
+            "moduleName": "MAQueriesAndFeedback",
+            "static": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MAQueryImageEditingViewController",
+                "printedName": "MAQueriesAndFeedback.MAQueryImageEditingViewController",
+                "usr": "c:@M@MAQueriesAndFeedback@objc(cs)MAQueryImageEditingViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@MAQueriesAndFeedback@objc(cs)MAQueryImageEditingViewController(im)initWithNibName:bundle:",
+            "mangledName": "$s20MAQueriesAndFeedback33MAQueryImageEditingViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "MAQueriesAndFeedback",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "MAQueriesAndFeedback.MAQueryImageEditingViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MAQueryImageEditingViewController",
+                    "printedName": "MAQueriesAndFeedback.MAQueryImageEditingViewController",
+                    "usr": "c:@M@MAQueriesAndFeedback@objc(cs)MAQueryImageEditingViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@MAQueriesAndFeedback@objc(cs)MAQueryImageEditingViewController(im)initWithCoder:",
+            "mangledName": "$s20MAQueriesAndFeedback33MAQueryImageEditingViewControllerC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "MAQueriesAndFeedback",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@MAQueriesAndFeedback@objc(cs)MAQueryImageEditingViewController",
+        "mangledName": "$s20MAQueriesAndFeedback33MAQueryImageEditingViewControllerC",
+        "moduleName": "MAQueriesAndFeedback",
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MAQueriesAndFeedback"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MAQueriesAndFeedback"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "MAQueriesAndFeedback"
+      },
+      {
+        "kind": "Import",
+        "name": "DeveloperToolsSupport",
+        "printedName": "DeveloperToolsSupport",
+        "declKind": "Import",
+        "moduleName": "MAQueriesAndFeedback"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/harikrishnan.sasikum\/Documents\/GitHub\/QueriesAndFeedback-iOS\/MAQueriesAndFeedback\/MAQueriesAndFeedbackButtonView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 602,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/harikrishnan.sasikum\/Documents\/GitHub\/QueriesAndFeedback-iOS\/MAQueriesAndFeedback\/MAQueriesAndFeedbackButtonView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 608,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/harikrishnan.sasikum\/Documents\/GitHub\/QueriesAndFeedback-iOS\/MAQueriesAndFeedback\/MAQueriesAndFeedbackButtonView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 693,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/harikrishnan.sasikum\/Documents\/GitHub\/QueriesAndFeedback-iOS\/MAQueriesAndFeedback\/MAQuriesandFeedbackButtonManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 352,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/harikrishnan.sasikum\/Documents\/GitHub\/QueriesAndFeedback-iOS\/MAQueriesAndFeedback\/MAQuriesandFeedbackButtonManager.swift",
+      "kind": "StringLiteral",
+      "offset": 458,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/harikrishnan.sasikum\/Documents\/GitHub\/QueriesAndFeedback-iOS\/MAQueriesAndFeedback\/MAImageEditorModels\/MAImageEditorTheme.swift",
+      "kind": "StringLiteral",
+      "offset": 949,
+      "length": 10,
+      "value": "\"libWhite\""
+    },
+    {
+      "filePath": "\/Users\/harikrishnan.sasikum\/Documents\/GitHub\/QueriesAndFeedback-iOS\/MAQueriesAndFeedback\/MAImageEditorModels\/MAImageEditorTheme.swift",
+      "kind": "StringLiteral",
+      "offset": 1121,
+      "length": 9,
+      "value": "\"libBlue\""
+    },
+    {
+      "filePath": "\/Users\/harikrishnan.sasikum\/Documents\/GitHub\/QueriesAndFeedback-iOS\/MAQueriesAndFeedback\/MAImageEditorModels\/MAImageEditorTheme.swift",
+      "kind": "StringLiteral",
+      "offset": 1290,
+      "length": 10,
+      "value": "\"libBlack\""
+    },
+    {
+      "filePath": "\/Users\/harikrishnan.sasikum\/Documents\/GitHub\/QueriesAndFeedback-iOS\/MAQueriesAndFeedback\/MAQueryImageEditingViewController.swift",
+      "kind": "Array",
+      "offset": 498,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/harikrishnan.sasikum\/Documents\/GitHub\/QueriesAndFeedback-iOS\/MAQueriesAndFeedback\/MAQueryImageEditingViewController.swift",
+      "kind": "Array",
+      "offset": 527,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/harikrishnan.sasikum\/Documents\/GitHub\/QueriesAndFeedback-iOS\/MAQueriesAndFeedback\/MAQueryImageEditingViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 8035,
+      "length": 3,
+      "value": "0.8"
+    },
+    {
+      "filePath": "\/Users\/harikrishnan.sasikum\/Documents\/GitHub\/QueriesAndFeedback-iOS\/MAQueriesAndFeedback\/MAQueryImageEditingViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8069,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/harikrishnan.sasikum\/Documents\/GitHub\/QueriesAndFeedback-iOS\/MAQueriesAndFeedback\/MAQueryImageEditingViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8186,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/harikrishnan.sasikum\/Documents\/GitHub\/QueriesAndFeedback-iOS\/MAQueriesAndFeedback\/MAQueryImageEditingViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8222,
+      "length": 3,
+      "value": "128"
+    },
+    {
+      "filePath": "\/Users\/harikrishnan.sasikum\/Documents\/GitHub\/QueriesAndFeedback-iOS\/MAQueriesAndFeedback\/MAQueryImageEditingViewController.swift",
+      "kind": "Array",
+      "offset": 8324,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/harikrishnan.sasikum\/Documents\/GitHub\/QueriesAndFeedback-iOS\/MAQueriesAndFeedback\/MAQueryImageEditingViewController.swift",
+      "kind": "Array",
+      "offset": 8364,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/harikrishnan.sasikum\/Documents\/GitHub\/QueriesAndFeedback-iOS\/MAQueriesAndFeedback\/MAQueryImageEditingViewController.swift",
+      "kind": "Array",
+      "offset": 8421,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/harikrishnan.sasikum\/Documents\/GitHub\/QueriesAndFeedback-iOS\/MAQueriesAndFeedback\/MAQueryImageEditingViewController.swift",
+      "kind": "Array",
+      "offset": 8460,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/harikrishnan.sasikum\/Documents\/GitHub\/QueriesAndFeedback-iOS\/MAQueriesAndFeedback\/MAQueryImageEditingViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12634,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/harikrishnan.sasikum\/Documents\/GitHub\/QueriesAndFeedback-iOS\/MAQueriesAndFeedback\/MAQueryImageEditingViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12751,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/harikrishnan.sasikum\/Documents\/GitHub\/QueriesAndFeedback-iOS\/MAQueriesAndFeedback\/MAQueryImageEditingViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12787,
+      "length": 3,
+      "value": "128"
+    },
+    {
+      "filePath": "\/Users\/harikrishnan.sasikum\/Documents\/GitHub\/QueriesAndFeedback-iOS\/MAQueriesAndFeedback\/MAQueryImageEditingViewController.swift",
+      "kind": "Array",
+      "offset": 12889,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/harikrishnan.sasikum\/Documents\/GitHub\/QueriesAndFeedback-iOS\/MAQueriesAndFeedback\/MAQueryImageEditingViewController.swift",
+      "kind": "Array",
+      "offset": 12929,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/harikrishnan.sasikum\/Documents\/GitHub\/QueriesAndFeedback-iOS\/MAQueriesAndFeedback\/MAQueryImageEditingViewController.swift",
+      "kind": "Array",
+      "offset": 12973,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/harikrishnan.sasikum\/Documents\/GitHub\/QueriesAndFeedback-iOS\/MAQueriesAndFeedback\/MAQueryImageEditingViewController.swift",
+      "kind": "Array",
+      "offset": 13020,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/harikrishnan.sasikum\/Library\/Developer\/Xcode\/DerivedData\/MAQueriesAndFeedback-ahnnnpjnmzlhdscuozvlumnqbagp\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MAQueriesAndFeedback\/IntermediateBuildFilesPath\/MAQueriesAndFeedback.build\/Release-iphoneos\/MAQueriesAndFeedback.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 644,
+      "length": 20,
+      "value": "\"highlightingColor1\""
+    },
+    {
+      "filePath": "\/Users\/harikrishnan.sasikum\/Library\/Developer\/Xcode\/DerivedData\/MAQueriesAndFeedback-ahnnnpjnmzlhdscuozvlumnqbagp\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MAQueriesAndFeedback\/IntermediateBuildFilesPath\/MAQueriesAndFeedback.build\/Release-iphoneos\/MAQueriesAndFeedback.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 810,
+      "length": 20,
+      "value": "\"highlightingColor2\""
+    },
+    {
+      "filePath": "\/Users\/harikrishnan.sasikum\/Library\/Developer\/Xcode\/DerivedData\/MAQueriesAndFeedback-ahnnnpjnmzlhdscuozvlumnqbagp\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MAQueriesAndFeedback\/IntermediateBuildFilesPath\/MAQueriesAndFeedback.build\/Release-iphoneos\/MAQueriesAndFeedback.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 960,
+      "length": 12,
+      "value": "\"infoAccept\""
+    },
+    {
+      "filePath": "\/Users\/harikrishnan.sasikum\/Library\/Developer\/Xcode\/DerivedData\/MAQueriesAndFeedback-ahnnnpjnmzlhdscuozvlumnqbagp\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MAQueriesAndFeedback\/IntermediateBuildFilesPath\/MAQueriesAndFeedback.build\/Release-iphoneos\/MAQueriesAndFeedback.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1100,
+      "length": 11,
+      "value": "\"infoClose\""
+    },
+    {
+      "filePath": "\/Users\/harikrishnan.sasikum\/Library\/Developer\/Xcode\/DerivedData\/MAQueriesAndFeedback-ahnnnpjnmzlhdscuozvlumnqbagp\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MAQueriesAndFeedback\/IntermediateBuildFilesPath\/MAQueriesAndFeedback.build\/Release-iphoneos\/MAQueriesAndFeedback.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1237,
+      "length": 10,
+      "value": "\"libBlack\""
+    },
+    {
+      "filePath": "\/Users\/harikrishnan.sasikum\/Library\/Developer\/Xcode\/DerivedData\/MAQueriesAndFeedback-ahnnnpjnmzlhdscuozvlumnqbagp\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MAQueriesAndFeedback\/IntermediateBuildFilesPath\/MAQueriesAndFeedback.build\/Release-iphoneos\/MAQueriesAndFeedback.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1371,
+      "length": 9,
+      "value": "\"libBlue\""
+    },
+    {
+      "filePath": "\/Users\/harikrishnan.sasikum\/Library\/Developer\/Xcode\/DerivedData\/MAQueriesAndFeedback-ahnnnpjnmzlhdscuozvlumnqbagp\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MAQueriesAndFeedback\/IntermediateBuildFilesPath\/MAQueriesAndFeedback.build\/Release-iphoneos\/MAQueriesAndFeedback.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1504,
+      "length": 9,
+      "value": "\"libGray\""
+    },
+    {
+      "filePath": "\/Users\/harikrishnan.sasikum\/Library\/Developer\/Xcode\/DerivedData\/MAQueriesAndFeedback-ahnnnpjnmzlhdscuozvlumnqbagp\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MAQueriesAndFeedback\/IntermediateBuildFilesPath\/MAQueriesAndFeedback.build\/Release-iphoneos\/MAQueriesAndFeedback.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1639,
+      "length": 10,
+      "value": "\"libWhite\""
+    },
+    {
+      "filePath": "\/Users\/harikrishnan.sasikum\/Library\/Developer\/Xcode\/DerivedData\/MAQueriesAndFeedback-ahnnnpjnmzlhdscuozvlumnqbagp\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MAQueriesAndFeedback\/IntermediateBuildFilesPath\/MAQueriesAndFeedback.build\/Release-iphoneos\/MAQueriesAndFeedback.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1795,
+      "length": 20,
+      "value": "\"quickInfoHighlight\""
+    },
+    {
+      "filePath": "\/Users\/harikrishnan.sasikum\/Library\/Developer\/Xcode\/DerivedData\/MAQueriesAndFeedback-ahnnnpjnmzlhdscuozvlumnqbagp\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MAQueriesAndFeedback\/IntermediateBuildFilesPath\/MAQueriesAndFeedback.build\/Release-iphoneos\/MAQueriesAndFeedback.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2044,
+      "length": 9,
+      "value": "\"infoBtn\""
+    },
+    {
+      "filePath": "\/Users\/harikrishnan.sasikum\/Library\/Developer\/Xcode\/DerivedData\/MAQueriesAndFeedback-ahnnnpjnmzlhdscuozvlumnqbagp\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MAQueriesAndFeedback\/IntermediateBuildFilesPath\/MAQueriesAndFeedback.build\/Release-iphoneos\/MAQueriesAndFeedback.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2183,
+      "length": 12,
+      "value": "\"infoCancel\""
+    },
+    {
+      "filePath": "\/Users\/harikrishnan.sasikum\/Library\/Developer\/Xcode\/DerivedData\/MAQueriesAndFeedback-ahnnnpjnmzlhdscuozvlumnqbagp\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MAQueriesAndFeedback\/IntermediateBuildFilesPath\/MAQueriesAndFeedback.build\/Release-iphoneos\/MAQueriesAndFeedback.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2317,
+      "length": 8,
+      "value": "\"infoOk\""
+    },
+    {
+      "filePath": "\/Users\/harikrishnan.sasikum\/Library\/Developer\/Xcode\/DerivedData\/MAQueriesAndFeedback-ahnnnpjnmzlhdscuozvlumnqbagp\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MAQueriesAndFeedback\/IntermediateBuildFilesPath\/MAQueriesAndFeedback.build\/Release-iphoneos\/MAQueriesAndFeedback.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2455,
+      "length": 12,
+      "value": "\"redoButton\""
+    },
+    {
+      "filePath": "\/Users\/harikrishnan.sasikum\/Library\/Developer\/Xcode\/DerivedData\/MAQueriesAndFeedback-ahnnnpjnmzlhdscuozvlumnqbagp\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MAQueriesAndFeedback\/IntermediateBuildFilesPath\/MAQueriesAndFeedback.build\/Release-iphoneos\/MAQueriesAndFeedback.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2605,
+      "length": 16,
+      "value": "\"redoButtonGray\""
+    },
+    {
+      "filePath": "\/Users\/harikrishnan.sasikum\/Library\/Developer\/Xcode\/DerivedData\/MAQueriesAndFeedback-ahnnnpjnmzlhdscuozvlumnqbagp\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MAQueriesAndFeedback\/IntermediateBuildFilesPath\/MAQueriesAndFeedback.build\/Release-iphoneos\/MAQueriesAndFeedback.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2751,
+      "length": 12,
+      "value": "\"undoButton\""
+    },
+    {
+      "filePath": "\/Users\/harikrishnan.sasikum\/Library\/Developer\/Xcode\/DerivedData\/MAQueriesAndFeedback-ahnnnpjnmzlhdscuozvlumnqbagp\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MAQueriesAndFeedback\/IntermediateBuildFilesPath\/MAQueriesAndFeedback.build\/Release-iphoneos\/MAQueriesAndFeedback.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2901,
+      "length": 16,
+      "value": "\"undoButtonGray\""
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+framework module MAQueriesAndFeedback {
+  umbrella header "MAQueriesAndFeedback.h"
+  export *
+
+  module * { export * }
+}
+
+module MAQueriesAndFeedback.Swift {
+  header "MAQueriesAndFeedback-Swift.h"
+  requires objc
+}

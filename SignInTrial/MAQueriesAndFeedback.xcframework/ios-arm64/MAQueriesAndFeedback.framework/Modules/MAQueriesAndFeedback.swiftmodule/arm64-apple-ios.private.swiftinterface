@@ -1,0 +1,42 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name MAQueriesAndFeedback
+import DeveloperToolsSupport
+import Foundation
+@_exported import MAQueriesAndFeedback
+import Swift
+import SwiftUI
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public protocol MAQueriesAndFeedbackCloseActionDeligate {
+  func queriesAndFeedbackClosed()
+}
+public protocol MAQueriesAndFeedbackDeligate : MAQueriesAndFeedback.MAQueriesAndFeedbackCloseActionDeligate {
+  func queriesAndFeedbackModeStarted()
+  func queriesAndFeedbackAccepted(queryImage: UIKit.UIImage?)
+  func queriesAndFeedBackClearFadeBeforeScreenshot()
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class MAQueriesAndFeedbackButtonView : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) public class func addQueriesAndFeedbackIcon(source: any MAQueriesAndFeedback.MAQueriesAndFeedbackDeligate)
+  @_Concurrency.MainActor(unsafe) public class func hideQueriesAndFeedbackIcon(status: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+public struct MAImageEditorTheme {
+  public init(headerViewColor: UIKit.UIColor? = nil, doneButtonTextColor: UIKit.UIColor? = nil, pageTitleTextColor: UIKit.UIColor? = nil)
+}
+public protocol MAQueryImageEditingDeligate {
+  func imageEdited(editedImage: UIKit.UIImage)
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class MAQueryImageEditingViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) public class func showImageEditor(sourceImage: UIKit.UIImage, sourceView: UIKit.UIViewController, imageEditorTheme: MAQueriesAndFeedback.MAImageEditorTheme? = nil)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
