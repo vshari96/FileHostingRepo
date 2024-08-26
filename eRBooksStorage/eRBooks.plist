@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>assets</key>
+			<array>
+				<dict>
+					<key>kind</key>
+					<string>software-package</string>
+					<key>url</key>
+					<string>https://www.dropbox.com/scl/fi/katn0clho3a60s7t6oqxa/eRBooks.ipa?rlkey=q640z88sl1uiqchjbxf46jj3e&amp;st=v2b96r1g&amp;dl=1</string>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>display-image</string>
+					<key>url</key>
+					<string>https://www.dropbox.com/scl/fi/jnvjsl9vrw72woo8xwsf7/57.png?rlkey=7tea7u2l8c4ivptofyjgy83uq&amp;st=j8mvbc9l&amp;dl=1</string>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>full-size-image</string>
+					<key>url</key>
+					<string>https://www.dropbox.com/scl/fi/uli28n7iegd16m6sxs8ow/512.png?rlkey=llwps8nygghz1dq42523rp07l&amp;st=xwvyg7ix&amp;dl=1</string>
+				</dict>
+			</array>
+			<key>metadata</key>
+			<dict>
+				<key>bundle-identifier</key>
+				<string>com.mariapps.eRBooks</string>
+				<key>bundle-version</key>
+				<string>1.0.4</string>
+				<key>kind</key>
+				<string>software</string>
+				<key>platform-identifier</key>
+				<string>com.apple.platform.iphoneos</string>
+				<key>title</key>
+				<string>eRBooks</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
