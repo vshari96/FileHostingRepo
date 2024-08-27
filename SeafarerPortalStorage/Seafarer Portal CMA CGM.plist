@@ -17,28 +17,27 @@
 					<key>kind</key>
 					<string>display-image</string>
 					<key>url</key>
-					<string>https://github.com/vshari96/FileHostingRepo/raw/main/eRBooksStorage/57.png</string>
+					<string>https://github.com/vshari96/FileHostingRepo/raw/main/SeafarerPortalStorage/57.png</string>
 				</dict>
 				<dict>
 					<key>kind</key>
 					<string>full-size-image</string>
 					<key>url</key>
-					<string>https://github.com/vshari96/FileHostingRepo/raw/main/eRBooksStorage/512.png</string>
+					<string>https://github.com/vshari96/FileHostingRepo/raw/main/SeafarerPortalStorage/512.png</string>
 				</dict>
 			</array>
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.mariapps.seafarerportal.cmacgm
- </string>
+				<string>com.mariapps.seafarerportal.cmacgm</string>
 				<key>bundle-version</key>
-				<string>1.1.0</string>
+				<string>1.0.0</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>platform-identifier</key>
 				<string>com.apple.platform.iphoneos</string>
 				<key>title</key>
-				<string>Seafarer Portal CMACGM</string>
+				<string>Seafarer Portal CMA CGM</string>
 			</dict>
 		</dict>
 	</array>
