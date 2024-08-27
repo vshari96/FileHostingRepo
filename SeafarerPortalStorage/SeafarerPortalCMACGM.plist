@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>assets</key>
+			<array>
+				<dict>
+					<key>kind</key>
+					<string>software-package</string>
+					<key>url</key>
+					<string>https://www.dropbox.com/scl/fi/005dwzkqk177td6qb9vce/Seafarer-Portal-CMA-CGM.ipa?rlkey=9m7ow63yxgtzho6gr6dudkqjo&amp;dl=1</string>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>display-image</string>
+					<key>url</key>
+					<string>https://www.dropbox.com/scl/fi/wqe84bwrbh7pferw97zw2/signInTrial-57x57.png?rlkey=u8yf2n8eje395g98727858q30&amp;dl=1</string>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>full-size-image</string>
+					<key>url</key>
+					<string>https://www.dropbox.com/scl/fi/flcgq0fzquskeegwcnvs6/signInTrial-512x512.png?rlkey=jtdsk319spsas5eahqogsj8zd&amp;dl=1</string>
+				</dict>
+			</array>
+			<key>metadata</key>
+			<dict>
+				<key>bundle-identifier</key>
+				<string>com.mariapps.seafarerportal.cmacgm
+ </string>
+				<key>bundle-version</key>
+				<string>1.1.0</string>
+				<key>kind</key>
+				<string>software</string>
+				<key>platform-identifier</key>
+				<string>com.apple.platform.iphoneos</string>
+				<key>title</key>
+				<string>Seafarer Portal CMACGM</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
